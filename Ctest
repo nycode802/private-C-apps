@@ -1,0 +1,68 @@
+
+#import <stdio.h>
+#import <string.h>
+
+
+
+
+int main(){
+//main class Declaration
+char Firstname[30], MiddleInitial[30], LastName[30], Username[30], Password[50], Email[40];
+int age =14;
+
+printf(" What is your First name?");
+printf("\n");
+scanf("%s",Firstname);
+printf("\n");
+printf("what Is your Middle name?");
+printf("\n");
+scanf("%s",MiddleInitial);
+printf("\n");
+
+printf("What is your Lastname?");
+printf("\n");
+scanf("%s",LastName);
+printf("\n");
+
+printf("What is your age?");
+printf("\n");
+scanf("%d", &age);
+printf("\n");
+
+
+printf("What is the Username you would like to create?");
+printf("\n");
+scanf("%s", Username);
+printf("\n");
+
+printf("What is the Password you would like to create?");
+printf("\n");
+scanf("%s", Password);
+printf("\n");
+
+printf("What is the Email you would like to associate with this Account?");
+printf("\n");
+scanf("%s", Email);
+printf("\n");
+
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("your name is %s %s %s and you are %d years old.\n Your username is %s\n your password is %s\n  your email is %s.\n\n\t", Firstname, MiddleInitial , LastName, age, Username, Password, Email); 
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("Thank you for signing Up!");
+
+printf("\n");
+
+
+
+
+
+
+
+}
